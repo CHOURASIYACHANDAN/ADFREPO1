@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "CHAN2-DF"
 		},
+		"NewLinkedService1_connectionString": {
+			"value": ""
+		},
 		"CHAN-SHARED-IR_properties_typeProperties_linkedInfo_resourceId": {
 			"value": "/subscriptions/055c8743-bcd4-486f-ab19-d9286856e82e/resourcegroups/CHAN1_RG/providers/Microsoft.DataFactory/factories/CHAN1-DF/integrationruntimes/CHAN-IR"
 		},

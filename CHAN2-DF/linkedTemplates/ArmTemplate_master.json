@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "CHAN2-DF"
 		},
+		"NewLinkedService1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'NewLinkedService1'"
+		},
 		"CHAN-SHARED-IR_properties_typeProperties_linkedInfo_resourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/055c8743-bcd4-486f-ab19-d9286856e82e/resourcegroups/CHAN1_RG/providers/Microsoft.DataFactory/factories/CHAN1-DF/integrationruntimes/CHAN-IR"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"NewLinkedService1_connectionString": {
+						"value": "[parameters('NewLinkedService1_connectionString')]"
 					},
 					"CHAN-SHARED-IR_properties_typeProperties_linkedInfo_resourceId": {
 						"value": "[parameters('CHAN-SHARED-IR_properties_typeProperties_linkedInfo_resourceId')]"
