@@ -1,0 +1,9 @@
+{
+	"name": "CHAN2-DF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1715b155-c628-41ef-9375-144acf80c748",
+		"tenantId": "a6467858-5952-43d5-aa36-260fa71f3d52"
+	}
+}

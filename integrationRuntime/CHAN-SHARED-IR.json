@@ -1,0 +1,12 @@
+{
+	"name": "CHAN-SHARED-IR",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/055c8743-bcd4-486f-ab19-d9286856e82e/resourcegroups/CHAN1_RG/providers/Microsoft.DataFactory/factories/CHAN1-DF/integrationruntimes/CHAN-IR",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
